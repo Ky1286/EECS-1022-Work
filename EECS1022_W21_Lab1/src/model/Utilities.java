@@ -79,9 +79,12 @@ public class Utilities {
 		 * 2. No Scanner operations should appear here (e.g., input.nextInt()).
 		 *    Instead, refer to the input parameters of this method.   
 		 */
+		int d = seconds / (86400);
+		int h = seconds / (3600) % 24;
+		int m = seconds / 60 % 60;
+		int s = seconds % 60;
 		
-		
-		
+		result = d + " days " + h + " hours " + m + " minutes " + s + " seconds";
 		/* Your implementation ends here. */
 		
 		return result;
