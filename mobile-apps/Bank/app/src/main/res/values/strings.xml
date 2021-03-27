@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bank App - Kenneth Kui (217308487)</string>
+
+    <string-array name="serviceType">
+        <item>Deposit</item>
+        <item>Withdraw</item>
+        <item>Transfer</item>
+        <item>Print Statement</item>
+    </string-array>
+</resources>
