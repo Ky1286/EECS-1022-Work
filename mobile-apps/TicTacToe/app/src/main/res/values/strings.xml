@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string-array name="playerList">
+        <item>Player X</item>
+        <item>Player O</item>
+    </string-array>
+</resources>
